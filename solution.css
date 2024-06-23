@@ -150,3 +150,41 @@
         left: 10%;
     }
 }
+
+/*EXERCISE-13*/
+
+.ex-13-button:hover .ex-13-bottom-white {
+        animation: moveBottomWhiteComplete 2s linear infinite;
+}
+
+@keyframes moveBottomWhiteComplete{
+    0% {
+        right: 20%;
+        bottom: -1px;
+    }
+
+    20% {
+        right: 90%;
+        bottom: -10px;
+    }
+
+    40% {
+        right: -20%;
+        bottom: 60px;
+    }
+
+    60% {
+        right: -20%;
+        bottom: 60px;
+    }
+
+    80% {
+        right: 0%;
+        bottom: -10px;
+    }
+
+    100% {
+        right: 10%;
+        bottom: -10px;
+    }
+}
