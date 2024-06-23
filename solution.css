@@ -52,3 +52,14 @@
 .ex-square:active {
     transform: scale(.2);
 }
+
+/*EXERCISE-6*/
+
+.ex-6-img {
+    transition: 1s;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
