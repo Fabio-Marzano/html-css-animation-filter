@@ -72,3 +72,15 @@
 .ex-7-img:hover {
     filter: invert(100%) sepia(60%);
 }
+
+
+/*EXERCISE-8*/
+
+.ex-8-img {
+    transition: 1s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(100%) sepia(60%);
+    border-radius: 30px;
+}
