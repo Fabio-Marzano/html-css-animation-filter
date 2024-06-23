@@ -63,3 +63,12 @@
     filter: grayscale(100%);
 }
 
+/*EXERCISE-7*/
+
+.ex-7-img {
+    transition: 1s;
+}
+
+.ex-7-img:hover {
+    filter: invert(100%) sepia(60%);
+}
